@@ -1,0 +1,52 @@
+:root {
+    --background-color: rgb(24, 24, 24);
+    --foreground-color: white;
+    --secondary-background-color: rgb(45, 45, 45);
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+    line-height: 150%;
+}
+
+body {
+    width: 320px;
+    margin: 5px auto 3px;
+    padding: 0;
+}
+
+h1 {
+    margin: 5px 0 10px 12px;
+}
+
+.dropdown {
+    background-color: var(--secondary-background-color);
+    color: var(--foreground-color);
+    border: 0;
+    position: absolute;
+    right: 5px;
+    padding: 2px;
+    width: 108px;
+    font-size: 11pt;
+}
+
+.label-dropdown {
+    padding: 5px;
+    font-size: 12pt;
+}
+
+option {
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+}
+
+.primary-button {
+    border: 0;
+    margin: 5px 0 2px 5px;
+    background-color: var(--secondary-background-color);
+    color: var(--foreground-color);
+    padding: 8px;
+    font-size: 12pt;
+}

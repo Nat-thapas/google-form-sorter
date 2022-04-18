@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script defer src="popup.js"></script>
+</head>
+<body>
+    <h1>Google Forms Sorter</h1>
+    <label for="question-sorting-mode" class="label-dropdown">Questions sorting mode: </label>
+    <select class="dropdown" id="question-sorting-mode">
+        <option value="alphabetical">Alphabetical</option>
+        <option value="length">Length</option>
+        <option value="id">ID</option>
+    </select><br>
+    <label for="question-sorting-direction" class="label-dropdown">Questions sorting direction: </label>
+    <select class="dropdown" id="question-sorting-direction">
+        <option value="ascending">Ascending</option>
+        <option value="decending">Decending</option>
+    </select><br>
+    <label for="choice-sorting-mode" class="label-dropdown">Choices sorting mode: </label>
+    <select class="dropdown" id="choice-sorting-mode">
+        <option value="alphabetical">Alphabetical</option>
+        <option value="length">Length</option>
+        <option value="id">ID</option>
+    </select><br>
+    <label for="choice-sorting-direction" class="label-dropdown">Choices sorting direction: </label>
+    <select class="dropdown" id="choice-sorting-direction">
+        <option value="ascending">Ascending</option>
+        <option value="decending">Decending</option>
+    </select><br>
+    <button class="primary-button" id="sort-question-button" style="width: 151px;">Sort Questions</button>
+    <button class="primary-button" id="sort-choice-button" style="width: 151px;">Sort Choices</button>
+    <button class="primary-button" id="sort-both-button" style="width: 310px;">Sort Questions and Choices</button>
+</body>
+</html>
